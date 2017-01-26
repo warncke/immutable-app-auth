@@ -1,7 +1,9 @@
 {
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
-    "immutable-app": "0.0.2"
+    "immutable-app": "0.0.3",
+    "immutable-core-model": "^0.3.0",
+    "lodash": "^4.17.4"
   },
   "description": "Immutable app authentication module",
   "devDependencies": {
