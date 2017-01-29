@@ -43,12 +43,11 @@ describe('immutable-app-auth', function () {
             // drop any test tables
             await database.query('DROP TABLE IF EXISTS account')
             await database.query('DROP TABLE IF EXISTS auth')
+            await database.query('DROP TABLE IF EXISTS authDelete')
             await database.query('DROP TABLE IF EXISTS device')
             await database.query('DROP TABLE IF EXISTS deviceSession')
             await database.query('DROP TABLE IF EXISTS session')
             await database.query('DROP TABLE IF EXISTS sessionAccount')
-            // reset global app config
-            await immutableApp.reset()
             // create new app instance 
             app = immutableApp('test-app')
             // set configuration for testing

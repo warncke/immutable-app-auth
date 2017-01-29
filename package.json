@@ -1,8 +1,8 @@
 {
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
-    "immutable-app": "0.0.8",
-    "immutable-core-model": "^0.5.1",
+    "immutable-app": "0.0.9",
+    "immutable-core-model": "^0.5.4",
     "lodash": "^4.17.4"
   },
   "description": "Immutable app authentication module",
@@ -26,5 +26,5 @@
   "scripts": {
     "test": "mocha --harmony-async-await"
   },
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
