@@ -1,9 +1,13 @@
 {
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
-    "immutable-app": "0.0.9",
-    "immutable-core-model": "^0.5.4",
-    "lodash": "^4.17.4"
+    "immutable-app": "0.0.14",
+    "immutable-core-model": "^0.6.6",
+    "lodash": "^4.17.4",
+    "merge-args": "^0.2.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^1.0.0",
+    "random-unique-id": "^0.1.0"
   },
   "description": "Immutable app authentication module",
   "devDependencies": {
@@ -26,5 +30,5 @@
   "scripts": {
     "test": "mocha --harmony-async-await"
   },
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
