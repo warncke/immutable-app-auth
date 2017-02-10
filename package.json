@@ -2,7 +2,8 @@
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
     "immutable-app": "0.0.14",
-    "immutable-core-model": "^0.6.6",
+    "immutable-core-model": "^0.6.8",
+    "immutable-model-view-key-by": "^0.1.0",
     "lodash": "^4.17.4",
     "merge-args": "^0.2.0",
     "passport": "^0.3.2",
@@ -30,5 +31,5 @@
   "scripts": {
     "test": "mocha --harmony-async-await"
   },
-  "version": "0.0.8"
+  "version": "0.0.9"
 }
