@@ -1,36 +1,39 @@
 {
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
-    "immutable-app": "0.0.16",
-    "immutable-core-model": "0.6.9",
-    "immutable-model-view-key-by": "0.1.0",
+    "change-case": "^3.0.1",
+    "immutable-app": "0.1.1",
+    "immutable-core-model": "1.5.0",
+    "immutable-model-view-key-by": "0.2.0",
+    "immutable-require-valid-optional-object": "^0.1.1",
     "lodash": "4.17.4",
-    "merge-args": "0.2.0",
+    "merge-args": "0.2.1",
     "passport": "0.3.2",
     "passport-facebook": "2.1.1",
     "passport-google-oauth20": "1.0.0",
-    "random-unique-id": "0.1.0"
+    "random-unique-id": "0.1.1"
   },
   "description": "Immutable app authentication module",
   "devDependencies": {
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
-    "immutable-database-mariasql": "1.0.0",
-    "immutable-http-client": "0.3.0",
+    "immutable-core": "^1.2.0",
+    "immutable-database-mariasql": "1.2.0",
+    "immutable-http-client": "0.4.0",
     "mocha": "3.2.0"
   },
   "directories": {
     "test": "test"
   },
   "engines": {
-    "node": ">=7.0.0"
+    "node": ">=7.6.0"
   },
   "license": "MIT",
   "main": "lib/immutable-app-auth.js",
   "name": "immutable-app-auth",
   "repository": "warncke/immutable-app-auth",
   "scripts": {
-    "test": "mocha --harmony-async-await"
+    "test": "mocha"
   },
-  "version": "0.0.14"
+  "version": "0.0.15"
 }
