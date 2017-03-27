@@ -1,9 +1,8 @@
 'use strict'
 
-// require immutable-app before any app modules
-const immutableApp = require('immutable-app')
 // load auth module
 const auth = require('../lib/immutable-app-auth')
+const immutableApp = require('immutable-app')
 
 const ImmutableDatabaseMariaSQL = require('immutable-database-mariasql')
 const chai = require('chai')

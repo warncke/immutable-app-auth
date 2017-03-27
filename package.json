@@ -2,9 +2,9 @@
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
     "change-case": "^3.0.1",
-    "immutable-app": "0.2.13",
-    "immutable-core-model": "1.5.10",
-    "immutable-model-view-key-by": "0.2.11",
+    "immutable-app": "0.2.17",
+    "immutable-core-model": "1.5.12",
+    "immutable-model-view-key-by": "0.2.13",
     "immutable-require-valid-optional-object": "^0.1.1",
     "lodash": "4.17.4",
     "merge-args": "0.2.1",
@@ -17,9 +17,9 @@
   "devDependencies": {
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
-    "immutable-core": "1.2.10",
-    "immutable-database-mariasql": "1.2.11",
-    "immutable-http-client": "0.4.11",
+    "immutable-core": "1.2.12",
+    "immutable-database-mariasql": "1.2.13",
+    "immutable-http-client": "0.4.12",
     "mocha": "3.2.0"
   },
   "directories": {
@@ -35,5 +35,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.29"
+  "version": "0.0.30"
 }
