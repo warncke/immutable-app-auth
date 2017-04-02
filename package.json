@@ -3,8 +3,8 @@
   "dependencies": {
     "change-case": "^3.0.1",
     "immutable-app": "0.2.28",
-    "immutable-core-model": "1.6.5",
-    "immutable-model-view-key-by": "0.2.18",
+    "immutable-core-model": "1.6.6",
+    "immutable-model-view-key-by": "0.2.19",
     "immutable-require-valid-optional-object": "^0.1.1",
     "lodash": "4.17.4",
     "merge-args": "0.2.1",
@@ -35,5 +35,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.41"
+  "version": "0.0.42"
 }
