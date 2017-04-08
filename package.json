@@ -3,7 +3,7 @@
   "dependencies": {
     "change-case": "^3.0.1",
     "immutable-app": "0.2.33",
-    "immutable-core-model": "1.6.9",
+    "immutable-core-model": "1.6.10",
     "immutable-model-view-key-by": "0.2.22",
     "immutable-require-valid-optional-object": "^0.1.1",
     "lodash": "4.17.4",
@@ -35,5 +35,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.49"
+  "version": "0.0.50"
 }
