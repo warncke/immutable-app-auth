@@ -18,8 +18,8 @@
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
     "immutable-core": "1.2.17",
-    "immutable-database-mariasql": "1.2.14",
-    "immutable-http-client": "0.4.13",
+    "immutable-database-mariasql": "1.2.16",
+    "immutable-http-client": "0.4.14",
     "mocha": "3.2.0"
   },
   "directories": {
@@ -35,5 +35,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.54"
+  "version": "0.0.55"
 }
