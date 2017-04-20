@@ -2,9 +2,9 @@
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
     "change-case": "^3.0.1",
-    "immutable-app": "0.3.5",
+    "immutable-app": "0.3.6",
     "immutable-core-model": "1.7.5",
-    "immutable-model-view-key-by": "0.2.26",
+    "immutable-model-view-key-by": "0.2.27",
     "immutable-require-valid-optional-object": "^0.1.1",
     "lodash": "4.17.4",
     "merge-args": "0.2.1",
@@ -35,5 +35,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.62"
+  "version": "0.0.63"
 }
