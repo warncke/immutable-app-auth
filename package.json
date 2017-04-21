@@ -1,7 +1,7 @@
 {
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
-    "change-case": "^3.0.1",
+    "change-case": "3.0.1",
     "immutable-app": "0.3.8",
     "immutable-core-model": "1.7.5",
     "immutable-model-view-key-by": "0.2.27",
@@ -35,5 +35,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.65"
+  "version": "0.1.0"
 }

@@ -35,46 +35,36 @@ describe('immutable-app-auth', function () {
     var database = new ImmutableDatabaseMariaSQL(connectionParams)
 
     beforeEach(async function () {
-        // catch async errors
-        try {
-            // reset immutable modules
-            immutable.reset()
-            // drop any test tables
-            await database.query('DROP TABLE IF EXISTS account')
-            await database.query('DROP TABLE IF EXISTS auth')
-            await database.query('DROP TABLE IF EXISTS authDelete')
-            await database.query('DROP TABLE IF EXISTS device')
-            await database.query('DROP TABLE IF EXISTS deviceSession')
-            await database.query('DROP TABLE IF EXISTS session')
-            await database.query('DROP TABLE IF EXISTS sessionAccount')
-            // create new app instance 
-            app = immutableApp('test-app')
-            // set configuration for testing
-            app.config({
-                // set default database
-                database: {
-                    default: database,
-                },
-                // do not exit on listen errors
-                exit: false,
-                // do not log
-                log: false,
-            })
-        }
-        catch (err) {
-            throw err
-        }
+        // reset immutable modules
+        immutable.reset()
+        // drop any test tables
+        await database.query('DROP TABLE IF EXISTS account')
+        await database.query('DROP TABLE IF EXISTS auth')
+        await database.query('DROP TABLE IF EXISTS authDelete')
+        await database.query('DROP TABLE IF EXISTS device')
+        await database.query('DROP TABLE IF EXISTS deviceSession')
+        await database.query('DROP TABLE IF EXISTS session')
+        await database.query('DROP TABLE IF EXISTS sessionAccount')
+        // create new app instance
+        app = immutableApp('test-app')
+        // set configuration for testing
+        app.config({
+            // set default database
+            database: {
+                default: database,
+            },
+            // do not exit on listen errors
+            exit: false,
+            // do not log
+            log: false,
+            // do not create custom logger
+            logger: false,
+        })
     })
 
     it('should start new app with auth', async function () {
-        // catch async errors
-        try {
-            // start server
-            await app.start()
-        }
-        catch (err) {
-            assert.ifError(err)
-        }
+        // start server
+        await app.start()
     })
 
 
