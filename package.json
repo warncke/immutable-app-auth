@@ -3,6 +3,7 @@
   "dependencies": {
     "bcrypt": "1.0.2",
     "change-case": "3.0.1",
+    "if-defined": "1.0.1",
     "immutable-app": "0.5.3",
     "immutable-core-model": "1.9.1",
     "immutable-model-view-key-by": "0.2.33",
@@ -36,5 +37,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.2.8"
+  "version": "0.2.9"
 }
