@@ -4,8 +4,8 @@
     "bcrypt": "1.0.2",
     "change-case": "3.0.1",
     "if-defined": "1.0.1",
-    "immutable-app": "0.5.12",
-    "immutable-core-model": "1.9.4",
+    "immutable-app": "0.5.13",
+    "immutable-core-model": "1.10.0",
     "immutable-model-view-key-by": "0.2.36",
     "immutable-require-valid-optional-object": "0.1.2",
     "lodash": "4.17.4",
@@ -37,5 +37,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
