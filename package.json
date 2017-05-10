@@ -3,6 +3,8 @@
   "dependencies": {
     "bcrypt": "1.0.2",
     "change-case": "3.0.1",
+    "country-data": "0.0.31",
+    "geoip2": "1.0.5",
     "if-defined": "1.0.1",
     "immutable-app": "0.5.14",
     "immutable-core-model": "1.10.2",
@@ -10,10 +12,12 @@
     "immutable-require-valid-optional-object": "0.1.2",
     "lodash": "4.17.4",
     "merge-args": "0.2.2",
+    "moment": "2.18.1",
     "passport": "0.3.2",
     "passport-facebook": "2.1.1",
     "passport-google-oauth20": "1.0.0",
-    "random-unique-id": "0.1.10"
+    "random-unique-id": "0.1.10",
+    "which-country": "1.0.0"
   },
   "description": "Immutable app authentication module",
   "devDependencies": {
@@ -37,5 +41,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.3.2"
+  "version": "0.4.0"
 }

@@ -75,9 +75,20 @@ scope         - scope for google access (['email'])
 
 ### session configuration
 
-domain  - domain name for session cookie ('')
-expires - expiration defaults to session context only (0)
-name    - name of cookie to set ('sessionId')
+access - object with config for access id
+    cookie - object with access id cookie config
+cookie - object with session cookie config
+    domain - domain name for session cookie ('')
+    expires - expiration defaults to session context only (0)
+    name - name of cookie to set ('sessionId')
+currencies - object with 3 letter code (capitalized) and name of
+             supported currencies for app ({USD: 'United States Dollar'})
+defaultCurrency - string default currency code (USD)
+defaultLanguage - string default language (eng)
+defaultTimezone - string timezone (UTC)
+geoip - string abs path to maxmind geoip2 database file
+languages - object with language 3 digit lower case language code and anme
+            ({eng: 'English'})
 
 ## Immutable App Auth architecture
 
@@ -107,6 +118,19 @@ If the client sends a sessionId cookie an existing session will be loaded if
 the id exists.
 
 If a session does not exist for the client a new session will be created
+
+### session-location
+
+The location for the session is tracked using both MaxMind GeoIP and
+`navigator.location` in the browser.
+
+### profile
+
+A profile is created for each session if it does not exist and if the session
+is logged in then the profile for the account is loaded.
+
+The profile contains information like location, timezone, language and currency
+which will be set automatically unless set by the user.
 
 ### device-session
 
