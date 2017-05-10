@@ -48,30 +48,31 @@ and the domain for the device and session cookies is set.
 
 ### device configuration
 
-domain  - domain name for device cookie ('')
-expires - expiration defaults to far future (new Date(2147483647000))
-name    - name of cookie to set ('deviceId')
+* cookie - object with device cookie config
+    * domain - domain name for device cookie ('')
+    * expires - expiration defaults to far future (new Date(2147483647000))
+    * name - name of cookie to set ('deviceId')
 
 Any other properties set will be used as options for res.cookie()
 
 ### facebook configuation
 
-* callbackHost  - protocol and host for callback url ('')
-* callbackPath  - path for callback url ('/auth/facebook/callback')
-* clientId      - facebook client id ('')
-* clientSecret  - facebook client secret ('')
-* loginPath     - login path that redirects to facebook ('/auth/facebook/login')profileFields - profile data to request from facebook
+* callbackHost - protocol and host for callback url ('')
+* callbackPath - path for callback url ('/auth/facebook/callback')
+* clientId - facebook client id ('')
+* clientSecret - facebook client secret ('')
+* loginPath - login path that redirects to facebook ('/auth/facebook/login')profileFields - profile data to request from facebook
                 (['id', 'emails', 'name', 'gender', 'picture.type(large)'])
-* scope         - scope for facebook access (['email'])
+* scope - scope for facebook access (['email'])
 
 ### google configuration
 
-* callbackHost  - protocol and host for callback url ('')
-* callbackPath  - path for callback url ('/auth/google/callback')
-* clientId      - google client id ('')
-* clientSecret  - google client secret ('')
-* loginPath     - login path that redirects to google ('/auth/google/login')
-* scope         - scope for google access (['email'])
+* callbackHost - protocol and host for callback url ('')
+* callbackPath - path for callback url ('/auth/google/callback')
+* clientId - google client id ('')
+* clientSecret - google client secret ('')
+* loginPath - login path that redirects to google ('/auth/google/login')
+* scope - scope for google access (['email'])
 
 ### session configuration
 
