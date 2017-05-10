@@ -56,38 +56,38 @@ Any other properties set will be used as options for res.cookie()
 
 ### facebook configuation
 
-callbackHost  - protocol and host for callback url ('')
-callbackPath  - path for callback url ('/auth/facebook/callback')
-clientId      - facebook client id ('')
-clientSecret  - facebook client secret ('')
-loginPath     - login path that redirects to facebook ('/auth/facebook/login')profileFields - profile data to request from facebook
+* callbackHost  - protocol and host for callback url ('')
+* callbackPath  - path for callback url ('/auth/facebook/callback')
+* clientId      - facebook client id ('')
+* clientSecret  - facebook client secret ('')
+* loginPath     - login path that redirects to facebook ('/auth/facebook/login')profileFields - profile data to request from facebook
                 (['id', 'emails', 'name', 'gender', 'picture.type(large)'])
-scope         - scope for facebook access (['email'])
+* scope         - scope for facebook access (['email'])
 
 ### google configuration
 
-callbackHost  - protocol and host for callback url ('')
-callbackPath  - path for callback url ('/auth/google/callback')
-clientId      - google client id ('')
-clientSecret  - google client secret ('')
-loginPath     - login path that redirects to google ('/auth/google/login')
-scope         - scope for google access (['email'])
+* callbackHost  - protocol and host for callback url ('')
+* callbackPath  - path for callback url ('/auth/google/callback')
+* clientId      - google client id ('')
+* clientSecret  - google client secret ('')
+* loginPath     - login path that redirects to google ('/auth/google/login')
+* scope         - scope for google access (['email'])
 
 ### session configuration
 
-access - object with config for access id
-    cookie - object with access id cookie config
-cookie - object with session cookie config
-    domain - domain name for session cookie ('')
-    expires - expiration defaults to session context only (0)
-    name - name of cookie to set ('sessionId')
-currencies - object with 3 letter code (capitalized) and name of
+* access - object with config for access id
+    * cookie - object with access id cookie config
+* cookie - object with session cookie config
+    * domain - domain name for session cookie ('')
+    * expires - expiration defaults to session context only (0)
+    * name - name of cookie to set ('sessionId')
+* currencies - object with 3 letter code (capitalized) and name of
              supported currencies for app ({USD: 'United States Dollar'})
-defaultCurrency - string default currency code (USD)
-defaultLanguage - string default language (eng)
-defaultTimezone - string timezone (UTC)
-geoip - string abs path to maxmind geoip2 database file
-languages - object with language 3 digit lower case language code and anme
+* defaultCurrency - string default currency code (USD)
+* defaultLanguage - string default language (eng)
+* defaultTimezone - string timezone (UTC)
+* geoip - string abs path to maxmind geoip2 database file
+* languages - object with language 3 digit lower case language code and anme
             ({eng: 'English'})
 
 ## Immutable App Auth architecture
