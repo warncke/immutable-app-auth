@@ -8,7 +8,7 @@
     "if-defined": "1.0.1",
     "immutable-app": "0.6.2",
     "immutable-core-model": "1.11.2",
-    "immutable-model-view-key-by": "0.2.39",
+    "immutable-model-view-key-by": "0.2.40",
     "immutable-require-valid-optional-object": "0.1.2",
     "lodash": "4.17.4",
     "merge-args": "0.2.2",
@@ -41,5 +41,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.4.7"
+  "version": "0.4.8"
 }
