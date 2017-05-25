@@ -6,7 +6,7 @@
     "country-data": "0.0.31",
     "geoip2": "1.0.5",
     "if-defined": "1.0.3",
-    "immutable-app": "0.6.6",
+    "immutable-app": "0.6.7",
     "immutable-core-model": "1.11.6",
     "immutable-model-view-key-by": "0.2.45",
     "immutable-require-valid-optional-object": "0.1.4",
@@ -41,5 +41,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.4.16"
+  "version": "0.4.17"
 }
