@@ -8,15 +8,15 @@
     "if-defined": "1.0.4",
     "immutable-app": "0.6.10",
     "immutable-core-model": "1.11.7",
-    "immutable-model-view-key-by": "0.2.46",
-    "immutable-require-valid-optional-object": "0.1.4",
+    "immutable-model-view-key-by": "0.2.47",
+    "immutable-require-valid-optional-object": "0.1.5",
     "lodash": "4.17.4",
-    "merge-args": "0.2.4",
+    "merge-args": "0.2.5",
     "moment": "2.18.1",
     "passport": "0.3.2",
     "passport-facebook": "2.1.1",
     "passport-google-oauth20": "1.0.0",
-    "random-unique-id": "1.0.0",
+    "random-unique-id": "1.0.1",
     "which-country": "1.0.0"
   },
   "description": "Immutable app authentication module",
@@ -41,5 +41,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.4.21"
+  "version": "0.4.22"
 }
