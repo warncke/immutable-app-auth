@@ -6,9 +6,9 @@
     "country-data": "0.0.31",
     "geoip2": "1.0.5",
     "if-defined": "1.0.4",
-    "immutable-app": "0.6.11",
+    "immutable-app": "0.6.12",
     "immutable-core-model": "1.11.7",
-    "immutable-model-view-key-by": "0.2.48",
+    "immutable-model-view-key-by": "0.2.49",
     "immutable-require-valid-optional-object": "0.1.5",
     "lodash": "4.17.4",
     "merge-args": "0.2.5",
@@ -41,5 +41,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.4.25"
+  "version": "0.4.26"
 }
