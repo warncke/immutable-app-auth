@@ -5,9 +5,9 @@
     "change-case": "3.0.1",
     "country-data": "0.0.31",
     "geoip2": "1.0.5",
-    "if-defined": "1.0.5",
-    "immutable-app": "0.7.2",
-    "immutable-core-model": "2.0.5",
+    "if-defined": "1.0.6",
+    "immutable-app": "0.7.5",
+    "immutable-core-model": "2.0.6",
     "immutable-model-view-key-by": "0.2.56",
     "immutable-require-valid-optional-object": "0.1.6",
     "lodash": "4.17.4",
@@ -16,7 +16,7 @@
     "passport": "0.3.2",
     "passport-facebook": "2.1.1",
     "passport-google-oauth20": "1.0.0",
-    "random-unique-id": "1.0.2",
+    "random-unique-id": "1.0.3",
     "which-country": "1.0.0"
   },
   "description": "Immutable app authentication module",
@@ -41,5 +41,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.4.36"
+  "version": "0.4.37"
 }
