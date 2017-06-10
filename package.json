@@ -7,7 +7,7 @@
     "geoip2": "1.0.5",
     "if-defined": "1.0.8",
     "immutable-access-control": "0.4.6",
-    "immutable-app": "0.8.3",
+    "immutable-app": "0.8.4",
     "immutable-core-model": "2.0.16",
     "immutable-core-model-form": "0.7.3",
     "immutable-model-view-key-by": "0.2.69",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.4.59"
+  "version": "0.4.60"
 }
