@@ -9,8 +9,8 @@
     "immutable-access-control": "0.4.7",
     "immutable-app": "0.8.23",
     "immutable-core-model": "2.2.3",
-    "immutable-core-model-form": "0.7.16",
-    "immutable-model-view-key-by": "0.2.81",
+    "immutable-core-model-form": "0.7.17",
+    "immutable-model-view-key-by": "0.2.82",
     "immutable-require-valid-optional-object": "0.1.8",
     "lodash": "4.17.4",
     "merge-args": "0.2.8",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.5.21"
+  "version": "0.5.22"
 }
