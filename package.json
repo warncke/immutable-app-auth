@@ -8,9 +8,9 @@
     "if-defined": "1.0.8",
     "immutable-access-control": "0.4.7",
     "immutable-app": "0.8.24",
-    "immutable-core-model": "2.3.0",
-    "immutable-core-model-form": "0.7.17",
-    "immutable-model-view-key-by": "0.2.82",
+    "immutable-core-model": "2.3.2",
+    "immutable-core-model-form": "0.7.20",
+    "immutable-model-view-key-by": "0.2.84",
     "immutable-require-valid-optional-object": "0.1.8",
     "lodash": "4.17.4",
     "merge-args": "0.2.8",
@@ -25,9 +25,9 @@
   "devDependencies": {
     "chai": "4.0.2",
     "chai-as-promised": "7.1.0",
-    "immutable-core": "1.4.17",
-    "immutable-database-mariasql": "1.3.11",
-    "immutable-http-client": "0.6.1",
+    "immutable-core": "1.4.18",
+    "immutable-database-mariasql": "1.3.12",
+    "immutable-http-client": "0.6.2",
     "mocha": "3.4.2"
   },
   "directories": {
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.5.24"
+  "version": "0.5.25"
 }
