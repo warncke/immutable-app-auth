@@ -5,8 +5,8 @@
     "change-case": "3.0.1",
     "country-data": "0.0.31",
     "geoip2": "1.0.5",
-    "if-defined": "1.0.9",
-    "immutable-access-control": "0.4.9",
+    "if-defined": "1.0.10",
+    "immutable-access-control": "0.4.10",
     "immutable-app": "0.10.0",
     "immutable-core-model": "3.0.0",
     "immutable-core-model-form": "0.7.33",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.6.0"
+  "version": "0.6.1"
 }
