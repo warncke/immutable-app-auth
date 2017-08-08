@@ -8,7 +8,7 @@
     "if-defined": "1.0.11",
     "immutable-access-control": "0.4.14",
     "immutable-app": "0.10.7",
-    "immutable-core-model": "3.0.6",
+    "immutable-core-model": "3.0.7",
     "immutable-core-model-form": "0.7.40",
     "immutable-model-view-key-by": "0.2.106",
     "immutable-require-valid-optional-object": "0.1.11",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.7.4"
+  "version": "0.7.5"
 }
