@@ -7,9 +7,9 @@
     "geoip2": "1.0.5",
     "if-defined": "1.0.14",
     "immutable-access-control": "0.5.7",
-    "immutable-app": "0.14.6",
+    "immutable-app": "0.15.0",
     "immutable-core-model": "3.4.1",
-    "immutable-core-model-form": "0.8.21",
+    "immutable-core-model-form": "0.9.0",
     "immutable-model-view-key-by": "0.2.129",
     "immutable-require-valid-optional-object": "0.1.14",
     "lodash": "4.17.4",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.8.15"
+  "version": "0.8.16"
 }
