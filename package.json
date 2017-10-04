@@ -10,7 +10,7 @@
     "immutable-app": "0.15.9",
     "immutable-core-model": "3.4.9",
     "immutable-core-model-form": "0.9.14",
-    "immutable-model-view-key-by": "0.2.138",
+    "immutable-model-view-key-by": "0.2.139",
     "immutable-require-valid-optional-object": "0.1.15",
     "lodash": "4.17.4",
     "merge-args": "0.2.15",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha --exit"
   },
-  "version": "0.8.37"
+  "version": "0.8.38"
 }
