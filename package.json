@@ -18,7 +18,7 @@
     "passport": "0.4.0",
     "passport-facebook": "2.1.1",
     "passport-google-oauth20": "1.0.0",
-    "random-unique-id": "1.0.17",
+    "random-unique-id": "1.0.18",
     "which-country": "1.0.0"
   },
   "description": "Immutable app authentication module",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha --exit"
   },
-  "version": "0.8.46"
+  "version": "0.8.47"
 }
