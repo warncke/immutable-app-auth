@@ -7,10 +7,10 @@
     "geoip2": "1.0.5",
     "if-defined": "1.0.16",
     "immutable-access-control": "0.5.13",
-    "immutable-app": "0.15.24",
+    "immutable-app": "0.15.25",
     "immutable-core-model": "3.5.7",
-    "immutable-core-model-form": "0.9.37",
-    "immutable-model-view-key-by": "0.2.159",
+    "immutable-core-model-form": "0.9.38",
+    "immutable-model-view-key-by": "0.2.160",
     "immutable-require-valid-optional-object": "0.1.16",
     "lodash": "4.17.4",
     "merge-args": "0.2.16",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "chai": "4.1.2",
     "chai-as-promised": "7.1.1",
-    "immutable-core": "2.2.21",
+    "immutable-core": "2.2.22",
     "immutable-database-mariasql": "1.3.36",
     "immutable-http-client": "0.6.28",
     "mocha": "4.0.1"
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha --exit"
   },
-  "version": "0.8.62"
+  "version": "0.8.63"
 }
