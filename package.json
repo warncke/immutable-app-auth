@@ -9,7 +9,7 @@
     "immutable-access-control": "0.5.13",
     "immutable-app": "0.15.29",
     "immutable-core-model": "3.5.10",
-    "immutable-core-model-form": "0.9.41",
+    "immutable-core-model-form": "0.9.42",
     "immutable-model-view-key-by": "0.2.163",
     "immutable-require-valid-optional-object": "0.1.16",
     "lodash": "4.17.4",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha --exit"
   },
-  "version": "0.8.69"
+  "version": "0.8.70"
 }
