@@ -7,10 +7,10 @@
     "geoip2": "1.0.5",
     "if-defined": "1.0.16",
     "immutable-access-control": "0.5.13",
-    "immutable-app": "0.15.34",
+    "immutable-app": "0.15.35",
     "immutable-core-model": "3.5.15",
-    "immutable-core-model-form": "0.9.47",
-    "immutable-model-view-key-by": "0.2.168",
+    "immutable-core-model-form": "0.9.48",
+    "immutable-model-view-key-by": "0.2.169",
     "immutable-require-valid-optional-object": "0.1.16",
     "lodash": "4.17.4",
     "merge-args": "0.2.16",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha --exit"
   },
-  "version": "0.9.10"
+  "version": "0.9.11"
 }
