@@ -8,9 +8,9 @@
     "if-defined": "1.0.16",
     "immutable-access-control": "0.5.13",
     "immutable-app": "0.15.40",
-    "immutable-core-model": "3.5.21",
-    "immutable-core-model-form": "0.9.55",
-    "immutable-model-view-key-by": "0.2.173",
+    "immutable-core-model": "3.5.22",
+    "immutable-core-model-form": "0.9.57",
+    "immutable-model-view-key-by": "0.2.175",
     "immutable-require-valid-optional-object": "0.1.16",
     "lodash": "4.17.4",
     "merge-args": "0.2.16",
@@ -43,5 +43,5 @@
   "scripts": {
     "test": "mocha --exit"
   },
-  "version": "0.9.23"
+  "version": "0.9.24"
 }
