@@ -10,12 +10,12 @@ Immutable App Auth integrates with
 [Immutable Access Control](https://www.npmjs.com/package/immutable-access-control)
 and loads the access control rules and roles that are used for access control.
 
-## Immutable App Auth v0.7 and Immutable Core Model v3
+## Immutable App Auth v0.10 and Immutable Core Model v4
 
-Immutable App Auth v0.7 is required to support the breaking changes that were made
-in Immutable Core Model v3.
+Immutable App Auth v0.10 is required to support the breaking changes that were made
+in Immutable Core Model v4.
 
-Immutable App v0.7 is not compatible with Imutable Core Model v2.
+Immutable App v0.10 is not compatible with Imutable Core Model v3.
 
 ## Using Immutable App Auth
 

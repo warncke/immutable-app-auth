@@ -4,7 +4,7 @@
 const auth = require('../lib/immutable-app-auth')
 const immutableApp = require('immutable-app')
 
-const ImmutableDatabaseMariaSQL = require('immutable-database-mariasql')
+const ImmutableCoreModel = require('immutable-core-model')
 const chai = require('chai')
 const chaiAsPromised = require('chai-as-promised')
 const httpClient = require('immutable-http-client')
@@ -20,8 +20,7 @@ const dbUser = process.env.DB_USER || 'root'
 
 // use the same params for all connections
 const connectionParams = {
-    charset: 'utf8',
-    db: dbName,
+    database: dbName,
     host: dbHost,
     password: dbPass,
     user: dbUser,
@@ -31,26 +30,25 @@ describe('immutable-app-auth', function () {
 
     var app
 
-    // create database connection to use for testing
-    var database = new ImmutableDatabaseMariaSQL(connectionParams)
-
     beforeEach(async function () {
         // reset immutable modules
         immutable.reset()
+        // create database connection to use for testing
+        var mysql = await ImmutableCoreModel.createMysqlConnection(connectionParams)
         // drop any test tables
-        await database.query('DROP TABLE IF EXISTS account')
-        await database.query('DROP TABLE IF EXISTS auth')
-        await database.query('DROP TABLE IF EXISTS device')
-        await database.query('DROP TABLE IF EXISTS deviceSession')
-        await database.query('DROP TABLE IF EXISTS session')
-        await database.query('DROP TABLE IF EXISTS sessionAccount')
+        await mysql.query('DROP TABLE IF EXISTS account')
+        await mysql.query('DROP TABLE IF EXISTS auth')
+        await mysql.query('DROP TABLE IF EXISTS device')
+        await mysql.query('DROP TABLE IF EXISTS deviceSession')
+        await mysql.query('DROP TABLE IF EXISTS session')
+        await mysql.query('DROP TABLE IF EXISTS sessionAccount')
         // create new app instance
         app = immutableApp('test-app')
         // set configuration for testing
         app.config({
             // set default database
-            database: {
-                default: database,
+            mysql: {
+                default: mysql,
             },
             // do not exit on listen errors
             exit: false,

@@ -12,14 +12,11 @@ const dbUser = process.env.DB_USER || 'root'
 
 // use the same params for all connections
 const connectionParams = {
-    charset: 'utf8',
-    db: dbName,
+    database: dbName,
     host: dbHost,
     password: dbPass,
     user: dbUser,
 }
-// create database connection to use for testing
-var database = new ImmutableDatabaseMariaSQL(connectionParams)
 
 // get access control provider
 var accessControl = new ImmutableAccessControl()
@@ -32,11 +29,13 @@ async function run () {
     var app = immutableApp('test-app')
     // configure auth module
     immutableAppAuth.config()
+    // create database connection to use for testing
+    var mysql = await ImmutableCoreModel.createMysqlConnection(connectionParams)
     // set configuration for testing
     app.config({
         // set default database
-        database: {
-            default: database,
+        mysql: {
+            default: mysql,
         },
     })
     // start server
