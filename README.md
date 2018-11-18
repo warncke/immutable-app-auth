@@ -17,6 +17,11 @@ in Immutable Core Model v4.
 
 Immutable App v0.10 is not compatible with Imutable Core Model v3.
 
+!!! WARNING !!!
+
+geoip support has been removed. this will be added back in a modified way at a
+later time.
+
 ## Using Immutable App Auth
 
     app.js
